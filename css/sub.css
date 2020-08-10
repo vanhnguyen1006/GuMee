@@ -1,0 +1,62 @@
+/* PC màn rộng */
+@media screen and (max-width: 1900px) {
+    .pc-layout {
+        max-width: 1366px;
+    }
+    .pc-layout .row .main-menu {
+        display: inline-block;
+    }
+
+    .sub-menu {display: none;}
+}
+
+/* Laptop */
+@media screen and (max-width: 1366px) {
+    .pc-layout {
+        max-width: 1140px;
+    }
+    .pc-layout .row .main-menu {
+        display: inline-block;
+    }
+    .sub-menu {display: none;}
+}
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+    .pc-layout {
+        max-width: 900px;
+    }
+    .pc-layout .row .main-menu {
+        display: inline-block;
+        
+    }
+    .sub-menu {display: none;}
+}
+
+@media screen and (max-width: 992px) {
+    .pc-layout {
+        max-width: 768px;
+    }
+    .pc-layout .row .main-menu {
+        display: none;
+    }
+    .sub-menu {display: block;}
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+    
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+    
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+    
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+    
+}
+
