@@ -41,6 +41,12 @@
         display: none;
     }
     .sub-menu {display: block;}
+    .row .navbar-toggler {
+        margin-right: 15px;
+        border-radius: 0px;
+        color: rgba(0,0,0,.5);
+        border-color: rgba(0,0,0,.1);
+    }
 }
 
 /*Ipad dọc(768 x 1024)*/
