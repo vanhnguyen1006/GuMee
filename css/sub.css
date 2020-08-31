@@ -18,6 +18,9 @@
     .pc-layout .row .main-menu {
         display: inline-block;
     }
+    header .header .pc-layout .nav-logo {
+        margin-left: 60px;
+    }
     .sub-menu {display: none;}
 }
 
@@ -43,6 +46,10 @@
         display: none;
     }
     .sub-menu {display: block;}
+    
+    header .header .pc-layout .nav-logo {
+        margin-left: 60px;
+    }
     
     .row .navbar-toggler {
         margin-right: 15px;
