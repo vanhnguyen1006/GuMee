@@ -136,7 +136,7 @@ header .header .pc-layout .main-menu {
     flex-basis: auto;
     align-items: center;
 }
-header .header .pc-layout .main-menu .menu {float: right;}
+header .header .pc-layout .main-menu .menu {float: right;padding-right:50px;}
 header .header .pc-layout .main-menu .menu .nav-item {
     display: inline-block;
 	width: 85px auto;
