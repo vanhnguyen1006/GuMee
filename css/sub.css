@@ -6,7 +6,7 @@
     .pc-layout .row .main-menu {
         display: inline-block;
     }
-    .main-menu {display: block;}
+    
     .sub-menu {display: none;}
 }
 
@@ -41,6 +41,7 @@
         display: none;
     }
     .sub-menu {display: block;}
+    
     .row .navbar-toggler {
         margin-right: 15px;
         border-radius: 0px;
