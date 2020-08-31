@@ -1,12 +1,12 @@
 /* PC màn rộng */
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1920px) {
     .pc-layout {
         max-width: 1366px;
     }
     .pc-layout .row .main-menu {
         display: inline-block;
     }
-
+    .main-menu {display: block;}
     .sub-menu {display: none;}
 }
 
