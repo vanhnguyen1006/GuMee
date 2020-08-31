@@ -13,7 +13,7 @@
 /* Laptop */
 @media screen and (max-width: 1366px) {
     .pc-layout {
-        max-width: 1140px;
+        max-width: 1366px;
     }
     .pc-layout .row .main-menu {
         display: inline-block;
