@@ -10,6 +10,12 @@
     .sub-menu {display: none;}
 }
 
+@media screen and (max-width: 1555px) {
+    header .header .pc-layout .nav-logo {
+        margin-left: 60px;
+    }
+}
+
 /* Laptop */
 @media screen and (max-width: 1366px) {
     .pc-layout {
