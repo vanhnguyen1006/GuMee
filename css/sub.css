@@ -28,7 +28,9 @@
     }
     .pc-layout .row .main-menu {
         display: inline-block;
-        
+    }
+    header .header .pc-layout .nav-logo {
+        margin-left: 60px;
     }
     .sub-menu {display: none;}
 }
