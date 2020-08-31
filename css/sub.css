@@ -29,19 +29,24 @@
     }
     .sub-menu {display: none;}
 }
-
+@media screen and (max-width: 1066px) {
+    .pc-layout .row .main-menu {
+        display: none;
+    }
+    .sub-menu {display:block;}   
+}
 /*Ipad ngang(1024 x 768)*/
 @media screen and (max-width: 1024px) {
     .pc-layout {
         max-width: 900px;
     }
     .pc-layout .row .main-menu {
-        display: inline-block;
+        display: none;
     }
     header .header .pc-layout .nav-logo {
         margin-left: 60px;
     }
-    .sub-menu {display: none;}
+    .sub-menu {display: block;}
 }
 
 @media screen and (max-width: 992px) {
